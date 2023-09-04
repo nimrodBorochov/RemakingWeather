@@ -14,6 +14,9 @@
 		F354A8062AA60D3100B28977 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8052AA60D3100B28977 /* Cloud.swift */; };
 		F354A8082AA60F3700B28977 /* CloudGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8072AA60F3700B28977 /* CloudGroup.swift */; };
 		F354A80B2AA6128700B28977 /* CloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A80A2AA6128700B28977 /* CloudsView.swift */; };
+		F354A80E2AA6557700B28977 /* Color-Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A80D2AA6557700B28977 /* Color-Custom.swift */; };
+		F354A8112AA65A7400B28977 /* Array-GradientStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8102AA65A7400B28977 /* Array-GradientStop.swift */; };
+		F354A8132AA6626F00B28977 /* Color-Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8122AA6626F00B28977 /* Color-Interpolation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		F354A8052AA60D3100B28977 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		F354A8072AA60F3700B28977 /* CloudGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudGroup.swift; sourceTree = "<group>"; };
 		F354A80A2AA6128700B28977 /* CloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsView.swift; sourceTree = "<group>"; };
+		F354A80D2AA6557700B28977 /* Color-Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Custom.swift"; sourceTree = "<group>"; };
+		F354A8102AA65A7400B28977 /* Array-GradientStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array-GradientStop.swift"; sourceTree = "<group>"; };
+		F354A8122AA6626F00B28977 /* Color-Interpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Interpolation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				F3056B0A2AA607A900DC9EC4 /* RemakingWeatherApp.swift */,
-				F354A80A2AA6128700B28977 /* CloudsView.swift */,
+				F354A80C2AA651A200B28977 /* Clouds */,
 				F3056B0C2AA607A900DC9EC4 /* ContentView.swift */,
-				F354A8052AA60D3100B28977 /* Cloud.swift */,
-				F354A8072AA60F3700B28977 /* CloudGroup.swift */,
+				F354A80F2AA6589C00B28977 /* Extension */,
 				F3056B0E2AA607A900DC9EC4 /* Assets.xcassets */,
 				F3056B102AA607A900DC9EC4 /* Preview Content */,
 			);
@@ -74,6 +79,26 @@
 				F3056B112AA607A900DC9EC4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F354A80C2AA651A200B28977 /* Clouds */ = {
+			isa = PBXGroup;
+			children = (
+				F354A80A2AA6128700B28977 /* CloudsView.swift */,
+				F354A8052AA60D3100B28977 /* Cloud.swift */,
+				F354A8072AA60F3700B28977 /* CloudGroup.swift */,
+			);
+			path = Clouds;
+			sourceTree = "<group>";
+		};
+		F354A80F2AA6589C00B28977 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F354A8122AA6626F00B28977 /* Color-Interpolation.swift */,
+				F354A80D2AA6557700B28977 /* Color-Custom.swift */,
+				F354A8102AA65A7400B28977 /* Array-GradientStop.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F354A8132AA6626F00B28977 /* Color-Interpolation.swift in Sources */,
 				F3056B0D2AA607A900DC9EC4 /* ContentView.swift in Sources */,
 				F354A8062AA60D3100B28977 /* Cloud.swift in Sources */,
+				F354A80E2AA6557700B28977 /* Color-Custom.swift in Sources */,
 				F3056B0B2AA607A900DC9EC4 /* RemakingWeatherApp.swift in Sources */,
+				F354A8112AA65A7400B28977 /* Array-GradientStop.swift in Sources */,
 				F354A8082AA60F3700B28977 /* CloudGroup.swift in Sources */,
 				F354A80B2AA6128700B28977 /* CloudsView.swift in Sources */,
 			);
