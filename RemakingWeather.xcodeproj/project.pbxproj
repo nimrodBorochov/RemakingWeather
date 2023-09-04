@@ -11,6 +11,9 @@
 		F3056B0D2AA607A900DC9EC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3056B0C2AA607A900DC9EC4 /* ContentView.swift */; };
 		F3056B0F2AA607A900DC9EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3056B0E2AA607A900DC9EC4 /* Assets.xcassets */; };
 		F3056B122AA607A900DC9EC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3056B112AA607A900DC9EC4 /* Preview Assets.xcassets */; };
+		F354A8062AA60D3100B28977 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8052AA60D3100B28977 /* Cloud.swift */; };
+		F354A8082AA60F3700B28977 /* CloudGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8072AA60F3700B28977 /* CloudGroup.swift */; };
+		F354A80B2AA6128700B28977 /* CloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A80A2AA6128700B28977 /* CloudsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F3056B0C2AA607A900DC9EC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3056B0E2AA607A900DC9EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3056B112AA607A900DC9EC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F354A8052AA60D3100B28977 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		F354A8072AA60F3700B28977 /* CloudGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudGroup.swift; sourceTree = "<group>"; };
+		F354A80A2AA6128700B28977 /* CloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				F3056B0A2AA607A900DC9EC4 /* RemakingWeatherApp.swift */,
+				F354A80A2AA6128700B28977 /* CloudsView.swift */,
 				F3056B0C2AA607A900DC9EC4 /* ContentView.swift */,
+				F354A8052AA60D3100B28977 /* Cloud.swift */,
+				F354A8072AA60F3700B28977 /* CloudGroup.swift */,
 				F3056B0E2AA607A900DC9EC4 /* Assets.xcassets */,
 				F3056B102AA607A900DC9EC4 /* Preview Content */,
 			);
@@ -77,6 +86,7 @@
 				F3056B032AA607A900DC9EC4 /* Sources */,
 				F3056B042AA607A900DC9EC4 /* Frameworks */,
 				F3056B052AA607A900DC9EC4 /* Resources */,
+				F354A8092AA611F100B28977 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -132,13 +142,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F354A8092AA611F100B28977 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3056B032AA607A900DC9EC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3056B0D2AA607A900DC9EC4 /* ContentView.swift in Sources */,
+				F354A8062AA60D3100B28977 /* Cloud.swift in Sources */,
 				F3056B0B2AA607A900DC9EC4 /* RemakingWeatherApp.swift in Sources */,
+				F354A8082AA60F3700B28977 /* CloudGroup.swift in Sources */,
+				F354A80B2AA6128700B28977 /* CloudsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
