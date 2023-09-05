@@ -18,6 +18,9 @@
 		F354A8112AA65A7400B28977 /* Array-GradientStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8102AA65A7400B28977 /* Array-GradientStop.swift */; };
 		F354A8132AA6626F00B28977 /* Color-Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8122AA6626F00B28977 /* Color-Interpolation.swift */; };
 		F354A8172AA7354400B28977 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354A8162AA7354400B28977 /* ContentViewModel.swift */; };
+		F3FD531D2AA74B47005E14CD /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD531C2AA74B47005E14CD /* Star.swift */; };
+		F3FD531F2AA74B65005E14CD /* StarField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD531E2AA74B65005E14CD /* StarField.swift */; };
+		F3FD53212AA74B82005E14CD /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53202AA74B82005E14CD /* StarsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		F354A8102AA65A7400B28977 /* Array-GradientStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array-GradientStop.swift"; sourceTree = "<group>"; };
 		F354A8122AA6626F00B28977 /* Color-Interpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Interpolation.swift"; sourceTree = "<group>"; };
 		F354A8162AA7354400B28977 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F3FD531C2AA74B47005E14CD /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		F3FD531E2AA74B65005E14CD /* StarField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarField.swift; sourceTree = "<group>"; };
+		F3FD53202AA74B82005E14CD /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		F3056B092AA607A900DC9EC4 /* RemakingWeather */ = {
 			isa = PBXGroup;
 			children = (
+				F3FD531B2AA74B2D005E14CD /* Stars */,
 				F354A80C2AA651A200B28977 /* Clouds */,
 				F354A8182AA7402800B28977 /* Content */,
 				F354A80F2AA6589C00B28977 /* Extension */,
@@ -110,6 +117,16 @@
 				F354A8162AA7354400B28977 /* ContentViewModel.swift */,
 			);
 			path = Content;
+			sourceTree = "<group>";
+		};
+		F3FD531B2AA74B2D005E14CD /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				F3FD531C2AA74B47005E14CD /* Star.swift */,
+				F3FD531E2AA74B65005E14CD /* StarField.swift */,
+				F3FD53202AA74B82005E14CD /* StarsView.swift */,
+			);
+			path = Stars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,11 +225,14 @@
 				F354A8132AA6626F00B28977 /* Color-Interpolation.swift in Sources */,
 				F3056B0D2AA607A900DC9EC4 /* ContentView.swift in Sources */,
 				F354A8062AA60D3100B28977 /* Cloud.swift in Sources */,
+				F3FD531F2AA74B65005E14CD /* StarField.swift in Sources */,
+				F3FD531D2AA74B47005E14CD /* Star.swift in Sources */,
 				F354A80E2AA6557700B28977 /* Color-Custom.swift in Sources */,
 				F3056B0B2AA607A900DC9EC4 /* RemakingWeatherApp.swift in Sources */,
 				F354A8172AA7354400B28977 /* ContentViewModel.swift in Sources */,
 				F354A8112AA65A7400B28977 /* Array-GradientStop.swift in Sources */,
 				F354A8082AA60F3700B28977 /* CloudGroup.swift in Sources */,
+				F3FD53212AA74B82005E14CD /* StarsView.swift in Sources */,
 				F354A80B2AA6128700B28977 /* CloudsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

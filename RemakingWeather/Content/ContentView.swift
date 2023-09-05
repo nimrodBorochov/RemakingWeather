@@ -12,6 +12,9 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
+            StarsView()
+                .opacity(viewModel.starOpacity)
+
             CloudsView(
                 thickness: viewModel.cloudThickness,
                 topTint: viewModel.cloudTints.top,
