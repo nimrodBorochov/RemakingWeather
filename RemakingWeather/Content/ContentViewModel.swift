@@ -12,6 +12,10 @@ extension ContentView {
         @Published var cloudThickness = Cloud.Thickness.regular
         @Published var time = 0.0
 
+        @Published var stormType = Storm.Content.none
+        @Published var rainIntensity = 500.0
+        @Published var rainAngle = 0.0
+
         var formattedTime: String {
             let start = Calendar.current.startOfDay(for: Date.now)
             let advanced = start.addingTimeInterval(time * 24 * 60 * 60)
