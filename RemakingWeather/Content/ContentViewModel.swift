@@ -16,6 +16,11 @@ extension ContentView {
         @Published var rainIntensity = 500.0
         @Published var rainAngle = 0.0
 
+        @Published var lightningMaxBolts = 4.0
+        @Published var lightningForkProbability = 20.0
+
+        @Published var showingControls = true
+
         var formattedTime: String {
             let start = Calendar.current.startOfDay(for: Date.now)
             let advanced = start.addingTimeInterval(time * 24 * 60 * 60)
