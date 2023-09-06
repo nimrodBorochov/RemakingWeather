@@ -20,11 +20,12 @@ struct ContentView: View {
 //                topTint: viewModel.cloudTints.top,
 //                bottomTint: viewModel.cloudTints.bottom
 //            )
-
-            LightningView(
-                maximumBolts: Int(viewModel.lightningMaxBolts),
-                forkProbability: Int(viewModel.lightningForkProbability)
-            )
+//
+            SunView(progress: viewModel.time)
+//            LightningView(
+//                maximumBolts: Int(viewModel.lightningMaxBolts),
+//                forkProbability: Int(viewModel.lightningForkProbability)
+//            )
 
 //            if viewModel.stormType != .none {
 //                StormView(

@@ -31,6 +31,7 @@
 		F3FD53342AA882DD005E14CD /* LightningBolt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53332AA882DD005E14CD /* LightningBolt.swift */; };
 		F3FD53362AA883DA005E14CD /* Lightning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53352AA883DA005E14CD /* Lightning.swift */; };
 		F3FD53382AA892DB005E14CD /* LightningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53372AA892DB005E14CD /* LightningView.swift */; };
+		F3FD533B2AA8CDD6005E14CD /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD533A2AA8CDD6005E14CD /* SunView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		F3FD53332AA882DD005E14CD /* LightningBolt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningBolt.swift; sourceTree = "<group>"; };
 		F3FD53352AA883DA005E14CD /* Lightning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightning.swift; sourceTree = "<group>"; };
 		F3FD53372AA892DB005E14CD /* LightningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningView.swift; sourceTree = "<group>"; };
+		F3FD533A2AA8CDD6005E14CD /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		F3056B092AA607A900DC9EC4 /* RemakingWeather */ = {
 			isa = PBXGroup;
 			children = (
+				F3FD533A2AA8CDD6005E14CD /* SunView.swift */,
 				F354A8182AA7402800B28977 /* Content */,
 				F354A80C2AA651A200B28977 /* Clouds */,
 				F3FD531B2AA74B2D005E14CD /* Stars */,
@@ -287,6 +290,7 @@
 				F3FD532F2AA86D27005E14CD /* ResidueView.swift in Sources */,
 				F354A80E2AA6557700B28977 /* Color-Custom.swift in Sources */,
 				F3FD53242AA7A8A4005E14CD /* Storm.swift in Sources */,
+				F3FD533B2AA8CDD6005E14CD /* SunView.swift in Sources */,
 				F3056B0B2AA607A900DC9EC4 /* RemakingWeatherApp.swift in Sources */,
 				F3FD53292AA7B2FD005E14CD /* StormView.swift in Sources */,
 				F3FD53362AA883DA005E14CD /* Lightning.swift in Sources */,
