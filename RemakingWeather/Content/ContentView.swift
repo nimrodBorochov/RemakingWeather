@@ -22,8 +22,18 @@ struct ContentView: View {
             )
 
             if viewModel.stormType != .none {
-                StormView(type: viewModel.stormType, direction: .degrees(viewModel.rainAngle), strength: Int(viewModel.rainIntensity))
+                StormView(
+                    type: viewModel.stormType,
+                    direction: .degrees(viewModel.rainAngle),
+                    strength: Int(viewModel.rainIntensity)
+                )
             }
+
+            WeatherDetailsView(
+                tintColor: viewModel.weatherDetailsTintColor,
+                residueType: viewModel.stormType,
+                residueStrength: viewModel.rainIntensity
+            )
         }
         .preferredColorScheme(.dark)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -49,7 +59,7 @@ struct ContentView: View {
                 .padding()
 
                 Picker("Precipitation", selection: $viewModel.stormType) {
-                    ForEach(Storm.Content.allCases, id:\.self) { stormType in
+                    ForEach(Storm.Content.allCases, id: \.self) { stormType in
                         Text(String(describing: stormType).capitalized)
                     }
                 }

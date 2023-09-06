@@ -24,6 +24,10 @@
 		F3FD53242AA7A8A4005E14CD /* Storm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53232AA7A8A4005E14CD /* Storm.swift */; };
 		F3FD53272AA7A92A005E14CD /* StormDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53262AA7A92A005E14CD /* StormDrop.swift */; };
 		F3FD53292AA7B2FD005E14CD /* StormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53282AA7B2FD005E14CD /* StormView.swift */; };
+		F3FD532B2AA7C5FB005E14CD /* ResidueDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD532A2AA7C5FB005E14CD /* ResidueDrop.swift */; };
+		F3FD532D2AA7C9CF005E14CD /* Residue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD532C2AA7C9CF005E14CD /* Residue.swift */; };
+		F3FD532F2AA86D27005E14CD /* ResidueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD532E2AA86D27005E14CD /* ResidueView.swift */; };
+		F3FD53312AA86FCC005E14CD /* WeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD53302AA86FCC005E14CD /* WeatherDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		F3FD53232AA7A8A4005E14CD /* Storm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storm.swift; sourceTree = "<group>"; };
 		F3FD53262AA7A92A005E14CD /* StormDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormDrop.swift; sourceTree = "<group>"; };
 		F3FD53282AA7B2FD005E14CD /* StormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormView.swift; sourceTree = "<group>"; };
+		F3FD532A2AA7C5FB005E14CD /* ResidueDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidueDrop.swift; sourceTree = "<group>"; };
+		F3FD532C2AA7C9CF005E14CD /* Residue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Residue.swift; sourceTree = "<group>"; };
+		F3FD532E2AA86D27005E14CD /* ResidueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidueView.swift; sourceTree = "<group>"; };
+		F3FD53302AA86FCC005E14CD /* WeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,9 @@
 		F3056AFE2AA607A900DC9EC4 = {
 			isa = PBXGroup;
 			children = (
+				F3FD53302AA86FCC005E14CD /* WeatherDetailsView.swift */,
+				F3FD532E2AA86D27005E14CD /* ResidueView.swift */,
+				F3FD532C2AA7C9CF005E14CD /* Residue.swift */,
 				F3056B092AA607A900DC9EC4 /* RemakingWeather */,
 				F3056B082AA607A900DC9EC4 /* Products */,
 			);
@@ -85,6 +96,7 @@
 				F3056B0E2AA607A900DC9EC4 /* Assets.xcassets */,
 				F3056B102AA607A900DC9EC4 /* Preview Content */,
 				F3FD53252AA7A918005E14CD /* Storms */,
+				F3FD532A2AA7C5FB005E14CD /* ResidueDrop.swift */,
 			);
 			path = RemakingWeather;
 			sourceTree = "<group>";
@@ -239,11 +251,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FD53312AA86FCC005E14CD /* WeatherDetailsView.swift in Sources */,
 				F354A8132AA6626F00B28977 /* Color-Interpolation.swift in Sources */,
 				F3056B0D2AA607A900DC9EC4 /* ContentView.swift in Sources */,
+				F3FD532B2AA7C5FB005E14CD /* ResidueDrop.swift in Sources */,
 				F354A8062AA60D3100B28977 /* Cloud.swift in Sources */,
 				F3FD531F2AA74B65005E14CD /* StarField.swift in Sources */,
 				F3FD531D2AA74B47005E14CD /* Star.swift in Sources */,
+				F3FD532F2AA86D27005E14CD /* ResidueView.swift in Sources */,
 				F354A80E2AA6557700B28977 /* Color-Custom.swift in Sources */,
 				F3FD53242AA7A8A4005E14CD /* Storm.swift in Sources */,
 				F3056B0B2AA607A900DC9EC4 /* RemakingWeatherApp.swift in Sources */,
@@ -253,6 +268,7 @@
 				F354A8112AA65A7400B28977 /* Array-GradientStop.swift in Sources */,
 				F354A8082AA60F3700B28977 /* CloudGroup.swift in Sources */,
 				F3FD53212AA74B82005E14CD /* StarsView.swift in Sources */,
+				F3FD532D2AA7C9CF005E14CD /* Residue.swift in Sources */,
 				F354A80B2AA6128700B28977 /* CloudsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

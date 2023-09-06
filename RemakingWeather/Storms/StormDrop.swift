@@ -21,18 +21,12 @@ class StormDrop {
     var rotationSpeed: Angle
 
     init(type: Storm.Content, direction: Angle) {
-        // TODO: move to switch
-        if type == .snow {
-            self.direction = direction + .degrees(.random(in: -15...15))
-        } else {
-            self.direction = direction
-        }
-
         xCord = Double.random(in: -0.2...1.2)
         yCord = Double.random(in: -0.2...1.2)
 
         switch type {
         case .snow:
+            self.direction = direction + .degrees(.random(in: -15...15))
             xScale = Double.random(in: 0.125...1)
             yScale = xScale * Double.random(in: 0.5...1)
             speed = Double.random(in: 0.2...0.6)
@@ -40,6 +34,7 @@ class StormDrop {
             rotation = Angle.degrees(Double.random(in: 0...360))
             rotationSpeed = Angle.degrees(Double.random(in: -360...360))
         default:
+            self.direction = direction
             xScale = Double.random(in: 0.4...1)
             yScale = xScale
             speed = Double.random(in: 1...2)

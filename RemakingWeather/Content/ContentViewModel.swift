@@ -99,5 +99,8 @@ extension ContentView {
             return color.getComponents().alpha
         }
 
+        var weatherDetailsTintColor: Color {
+            backgroundTopStop.interpolated(amount: time)
+        }
     }
 }
